@@ -9,7 +9,7 @@
     padding: 0px;
 }
 
-body{
+html, body{
     background-color: wheat;
     min-height: 100vh;
 }
@@ -22,7 +22,7 @@ header > h1{
     font-family: Passion One, cursive;
     color: white;
     text-align: center;
-    font-size: 7em;
+    font-size: 6em;
     margin: 0px;
     padding-top: 50px;
     font-variant: small-caps;
@@ -61,7 +61,8 @@ div{
 }
 
 main{
-    width: 600px;
+    min-width: 250px;
+    max-width: 600px;
     background-color: rgba(0, 0, 0, 0.404);
     color: white;
     padding-left: 5px;
